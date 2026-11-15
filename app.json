@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "OrderBuddy",
+    "slug": "orderbuddy-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.ralphgacusan.orderbuddy",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#171717"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "orderbuddy",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6042666d-8a73-499b-8d64-9856dafd0210"
+      }
+    }
+  }
+}
